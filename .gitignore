@@ -1,0 +1,23 @@
+# Ignore environment variables file (contains sensitive keys)
+.env
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore the bot's saved knowledge (if you're using pickle)
+bot_knowledge.pkl
+
+# Ignore system-specific files (Mac OS, Windows, etc.)
+.DS_Store
+Thumbs.db
